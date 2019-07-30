@@ -1,0 +1,12 @@
+---
+- name: Wordpress for DevOps lab
+  hosts: localhost
+  become: yes
+  tasks:
+
+  roles:
+    - server
+    - php
+    - mysql
+    - wordpress
+
